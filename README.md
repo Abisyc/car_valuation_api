@@ -29,12 +29,12 @@ A production-ready, end-to-end Machine Learning application that estimates used 
 
 ```text
 .
-├── app.py              # FastAPI server & /predict route definition
+├── main.py              # FastAPI server & /predict route definition
 ├── frontend.py         # Streamlit web UI & API client
 ├── model.pkl           # Serialized Scikit-Learn model pipeline
 ├── requirements.txt    # Project dependencies
 ├── Dockerfile          # Single image container build definition
-└── .dockerignore       # Docker build exclusion rules
+└── Dataset             # Cardekho dataset
 ```
 
 ---
